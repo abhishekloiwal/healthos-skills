@@ -54,6 +54,41 @@ Use ordinary Markdown and retain stable links or locators back to source files. 
 
 Do not refuse solely because files or tools are absent. Work from the evidence available in the conversation, explicitly say that persistence is not guaranteed, and offer a portable Markdown block containing the source register, records, unknowns, action state, and next steps.
 
+## One semantic model, many stores
+
+Keep the same relationships whether the host uses SQL, Markdown, a note app, platform memory, or only the current chat:
+
+| Concept | What must remain connected |
+| --- | --- |
+| Person | The owner of each private record and any identity uncertainty |
+| Source | Original item, provenance, time, locator, access boundary, and correction chain |
+| Observation or event | Person, time, exact reported fact, source, context, status, and supersession |
+| Guidance claim | Source, author, date, population, jurisdiction, claim class, and exact scope |
+| Assessment | Dated inputs, method or lens, uncertainty, conclusion, and prior version |
+| Action | Proposal, decision owner, adoption state, measures, review point, and outcome |
+| Course scope | Release, stable scope ID, source links, and content version |
+| Learner event | Person, scope, time, event type, evidence of completion, and prior state |
+
+The essential links are `person -> record`, `record -> source`, `correction -> superseded record`, `assessment -> input records`, `action -> rationale and measures`, and `learner event -> course scope`. Generated current views point back to these records.
+
+### If a relational database is available
+
+A sensible implementation has separate tables or equivalent types for people, sources, observations/events, guidance releases and claims, assessment versions, actions, course scopes, and learner events. Use stable IDs, source foreign keys, event time plus recorded time, lifecycle status, and explicit supersession links. Treat current summaries and progress dashboards as views or rebuildable projections.
+
+The database can be authoritative for structured events without becoming authoritative over the original source. Do not force every observation into one wide table, store age as a fact that goes stale, replace original units with normalized units, or update a mistaken row in place when an audit trail matters.
+
+### If Markdown or ordinary files are available
+
+Use the same concepts as headings, small tables, and links. Stable textual IDs and exact source locators matter more than filenames. Split files when that improves retrieval; do not imitate a database merely for appearance.
+
+### If platform memory is available
+
+Store compact facts only when the platform is suitable for health data and the user agrees. Include source and date in each memory where possible. Do not assume the platform exposes versioning, deletion, privacy, or exact retrieval; keep a portable ledger export when those limits matter.
+
+### If only chat is available
+
+Maintain the model visibly in the conversation. Offer a Markdown handoff after material changes. Conversation context is working memory, not guaranteed durable storage.
+
 ## Identity and scope
 
 Confirm whose record is being handled when documents for multiple people could be mixed. Preserve the source's own identifying context privately; do not infer identity from filename alone. Never merge two people's records because their names look similar.

@@ -55,6 +55,8 @@ Avoid faux precision. A risk score or calculated metric is only as sound as its 
 
 Screening is for people without relevant symptoms; symptom evaluation is a different pathway. Before recommending a screening test, confirm the intended population, age, anatomy, risk factors, prior findings, local program, test interval, possible downstream workup, and balance of benefit and harm. Use current local recommendations rather than a frozen universal schedule.
 
+For a full prevention or LRA-style request, follow [`PREVENTION_REVIEW.md`](PREVENTION_REVIEW.md). A high work-priority rank does not by itself activate a test, treatment, or other intervention.
+
 ## Turning advice into action
 
 Keep these states separate:
@@ -67,6 +69,8 @@ Keep these states separate:
 - **Stopped or abandoned:** ended early, with reason if known.
 
 Do not mark an intervention adopted or active merely because the agent suggested it.
+
+Course completion, learner assessment, or a prevention-review rank cannot mark an action adopted or active either.
 
 A useful action record includes:
 
@@ -94,4 +98,4 @@ For a low-risk, user-approved behavior experiment:
 6. record adherence and confounders; and
 7. review without forcing a positive conclusion.
 
-An association in one person does not prove causation. A failed experiment is useful evidence when recorded honestly.
+An association in one person does not prove causation. A failed experiment is useful evidence when recorded honestly. At review, record outcome, burden and adherence, confounders, safety events, and one disposition: continue, adapt, stop, seek care, or collect better evidence.

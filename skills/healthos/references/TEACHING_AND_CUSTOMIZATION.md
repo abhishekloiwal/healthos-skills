@@ -15,21 +15,32 @@ Teach one bounded concept at a time:
 
 If the user asks “What can you teach me?”, show the course map from [`corpus/FOUNDATIONS.md`](corpus/FOUNDATIONS.md), ask what outcome matters most, and begin a small lesson. Do not confuse a menu with a completed lesson.
 
+Every teachable unit should have a stable scope ID tied to a named release. Use the ID, not only a title, when saving progress so renamed headings do not create false duplicates.
+
 ## Learner state
 
 These states are not interchangeable:
 
 - **Offered:** a topic was suggested.
+- **Selected:** the learner chose a topic or route.
 - **Presented:** the learner received the material.
 - **Acknowledged:** the learner said they saw or understood it.
 - **Practiced:** the learner attempted an exercise or applied it.
 - **Assessed:** a checkpoint produced evidence of understanding.
+- **Completed:** the defined scope was covered under an explicit basis.
+- **Deferred or skipped:** the learner postponed or declined it without completing it.
+- **Reopened:** a previously covered scope became active again.
+- **Update reviewed:** a later source change was actually discussed.
 - **Mastered:** repeated evidence met an explicit standard.
 - **Needs review:** later evidence showed uncertainty or decay.
 
-Append learner-state events with topic, time, course version, activity, evidence, and next step. Never silently turn “presented” into “mastered.” In chat-only mode, offer an export instead of claiming the state was saved.
+Append learner-state events with topic, scope ID, time, course version, activity, evidence, and next step. Completion needs a recorded basis such as user acknowledgement, confirmed prior coverage, or an assessment standard being met. Never silently turn “presented” into “completed” or “mastered.” In chat-only mode, offer an export instead of claiming the state was saved.
 
 Learner state may guide the next lesson. It must not alter the personal health ledger or imply that knowledge caused a health outcome.
+
+Keep three navigation states independent: the sequence cursor, the active topical or personalized route, and the append-only learner-event history. A topical detour must not advance the main sequence. A personalized route may retain stable health-record references and a short pedagogical reason, but not copied health values, new diagnoses, risk conclusions, or adopted actions.
+
+A worksheet or plan created during teaching is a learner artifact. It becomes health evidence or an active intervention only after the user confirms it through the appropriate ingestion or action process.
 
 ## Personalization without contamination
 
@@ -52,6 +63,8 @@ A user may add a book, guideline, paper, clinician note, course, or other materi
 4. note agreements, differences, and unresolved conflicts;
 5. label it as an additive overlay unless the user explicitly chooses a different role; and
 6. keep it in the user's private workspace when redistribution rights are absent.
+
+Use a simple source lifecycle: `preserved pending review`, then `reviewed and mapped`, `reviewed with no change`, or `rejected`. Preservation alone does not make a source teachable. If a reviewed addition affects material the learner already covered, record a pending learner update; do not retroactively claim they know it.
 
 The agent may summarize lawfully supplied material for the user's private use. It should not publish, bundle, or imitate protected source content or a real person's identity merely because the user can access it.
 

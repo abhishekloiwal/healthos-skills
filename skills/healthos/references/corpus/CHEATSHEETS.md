@@ -17,6 +17,37 @@ Never present a bare health number. Attach:
 
 There is no single universal expert range, laboratory range, or optimal range that safely applies to every person. Keep source intervals, diagnostic thresholds, treatment thresholds, and personal targets separate.
 
+### Label the number before using it
+
+Use three independent labels:
+
+| Dimension | Allowed labels |
+| --- | --- |
+| Observation form | directly measured, user-reported, calculated, estimated |
+| Number role | source reference interval, diagnostic criterion, risk band or association, action threshold, treatment goal, named-expert preference, user-adopted target, study result |
+| Claim status | current guideline, named-expert practice, guest view, heuristic, personal example, thought experiment, study result, hypothesis or experimental claim |
+
+Also retain the population, jurisdiction, effective date, method, unit, decision owner, and any source it supersedes. Never promote a study result, creator preference, or personal example into a clinical target.
+
+For tests, label the role as `broadly useful`, `periodic`, `conditional`, `experimental`, or `generally not recommended`. Every proposed test needs a question, possible result paths, and a decision it could change.
+
+## Small numeric register
+
+These are source-linked orientation values, frozen as of this release. They do not form a universal prescription. Check current local guidance and personal context before acting.
+
+| Topic | Number | Correct use |
+| --- | --- | --- |
+| Adult physical activity | 150–300 minutes/week moderate aerobic activity, or 75–150 minutes vigorous, plus muscle strengthening on at least 2 days/week | Public-health range from the US Physical Activity Guidelines; adapt for ability, condition, pregnancy, and local guidance. Some activity is better than none. |
+| Adult sleep | At least 7 hours regularly for healthy adults aged 18–60; 7–9 hours is a common cardiovascular-health orientation for most adults | Population guidance, not a promise that duration alone means restorative sleep. Symptoms and daytime function matter. |
+| Fruit and vegetables | At least 400 g/day for people older than 10 | WHO public-health guidance; total pattern, access, tolerance, and clinical needs still matter. |
+| Naturally occurring dietary fibre | At least 25 g/day for people older than 10 | WHO public-health guidance; increase and personalize with gastrointestinal and clinical context. |
+| Salt | Less than 5 g salt/day, equivalent to 2 g sodium/day, for adults | WHO population guidance; individualized sodium or potassium advice can differ with disease and medication. |
+| Blood pressure | Below 120/80 mm Hg is labelled optimal in the American Heart Association cardiovascular-health construct | A US prevention orientation, not by itself a diagnosis, medication threshold, or Dutch/other-jurisdiction rule. Use repeated standardized readings. |
+| ApoB | Around 60 mg/dL was described by Peter Attia in 2022 as his practice “ceiling”; lower figures on the same page are a thought experiment | Named-expert practice preference, not a universal guideline or a reason to self-medicate. Decisions require total risk, harms, and a clinician. |
+| Protein | Roughly 1.6–2.2 g/kg/day is Peter Attia's public 2025 recommendation for muscle-oriented optimization | Named-expert recommendation and research interpretation, not a default for every person. Adjust for goals, energy intake, pregnancy, disease, kidney context, and professional advice. |
+
+The Attia rows are included because HealthOS uses his public prevention lens. They are deliberately few, attributed, dated, and kept apart from clinical thresholds. Bryan Johnson's contribution to the default HealthOS lens is consistent execution and measurement; his changing personal biomarkers, prescriptions, product stack, calorie intake, and advanced therapies are not transferable target ranges. See [`PREVENTIVE_LENSES.md`](PREVENTIVE_LENSES.md) and [`SOURCES.md`](SOURCES.md).
+
 ## Labs and screening
 
 Labs answer narrower questions than panel names suggest. Screening is a separate clinical decision lane even when it uses a laboratory test.

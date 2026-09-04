@@ -25,9 +25,11 @@ No CLI is required. Point any capable agent at this repository and ask it to rea
 - a storage-neutral operating model for a private personal health system;
 - an append-and-supersede ledger method that preserves original evidence;
 - guidance for ingesting labs, clinical documents, wearable exports, notes, and other sources;
+- a prevention-priority review compatible with requests for an “LRA,” without inventing a risk score;
 - a safe answer and action workflow;
 - a teacher with explicit learner-state rules;
-- an original, versioned HealthOS foundations course and quick-reference pages;
+- an original, versioned HealthOS foundations course, source lenses, and quick-reference pages;
+- one semantic record model that can live in SQL, Markdown, platform memory, or chat;
 - a clean way to add, prefer, fork, or replace guidance without silently rewriting history; and
 - an optional agent persona that the user may adopt or ignore.
 
@@ -38,6 +40,7 @@ Personal records never belong in this public repository. Installed skill files a
 - “Set up a HealthOS for me.”
 - “Ingest these three lab PDFs and preserve the exact evidence.”
 - “What do you know about my cardiovascular health, and what is still unknown?”
+- “Run my LRA and rank the prevention work that matters now.”
 - “What can you teach me? Start with lipids.”
 - “Turn this goal into a measured action plan.”
 - “Use this source as my preferred lens, but keep the shipped course recoverable.”
@@ -56,14 +59,15 @@ Read [`skills/healthos/references/OPERATING_MODEL.md`](skills/healthos/reference
 
 HealthOS is an evidence and decision-support method, not a medical device or a substitute for a qualified clinician. Current local clinical guidance controls diagnosis, treatment, screening eligibility, and urgency. An agent should surface uncertainty and seek timely professional or emergency help when the situation may be urgent.
 
-This is an independent, original project. It contains no personal health records, paid course material, proprietary transcripts, or imitation of a real clinician. Users may add sources they are entitled to use in their own private workspace; those sources do not become redistributable through this repository.
+This is an independent, original project. Its preventive approach includes clearly attributed synthesis of public work by Peter Attia and Bryan Johnson, alongside public-health and clinical sources. Neither person nor their companies are affiliated with or endorse this project. The pack contains no personal health records, paid course material, proprietary transcripts, or imitation of a real person. Users may add sources they are entitled to use in their own private workspace; those sources do not become redistributable through this repository.
 
 ## Repository map
 
 - [`AGENTS.md`](AGENTS.md): entry point when an agent is given the whole repository.
 - [`skills/healthos/SKILL.md`](skills/healthos/SKILL.md): installable skill and task router.
 - [`skills/healthos/references/`](skills/healthos/references/): operating guidance.
-- [`skills/healthos/references/corpus/`](skills/healthos/references/corpus/): the original frozen foundation release and cheat sheets.
+- [`skills/healthos/references/PREVENTION_REVIEW.md`](skills/healthos/references/PREVENTION_REVIEW.md): the LRA-compatible prevention review.
+- [`skills/healthos/references/corpus/`](skills/healthos/references/corpus/): the original frozen course, source lenses, and cheat sheets.
 
 ## License
 

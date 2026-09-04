@@ -4,19 +4,20 @@ This is a compact foundation course for making sense of personal health evidence
 
 ## Course map
 
-1. Define health in the person's own terms.
-2. Separate evidence, guidance, interpretation, and action.
-3. Understand measurements before comparing them.
-4. Build a cardiometabolic risk picture.
-5. Reason about prevention and screening.
-6. Include brain, sleep, and emotional health.
-7. Treat physical capacity as several trainable qualities.
-8. Evaluate nutrition by pattern, adequacy, response, and sustainability.
-9. Reconcile medications and supplements as interventions.
-10. Run measured actions without fooling yourself.
-11. Maintain a useful longitudinal view.
+1. `HOS-FND-01` — Define health in the person's own terms.
+2. `HOS-FND-02` — Separate evidence, guidance, interpretation, and action.
+3. `HOS-FND-03` — Understand measurements before comparing them.
+4. `HOS-FND-04` — Build a cardiometabolic risk picture.
+5. `HOS-FND-05` — Reason about prevention and screening.
+6. `HOS-FND-06` — Include brain, sleep, and emotional health.
+7. `HOS-FND-07` — Treat physical capacity as several trainable qualities.
+8. `HOS-FND-08` — Evaluate nutrition by pattern, adequacy, response, and sustainability.
+9. `HOS-FND-09` — Reconcile medications and supplements as interventions.
+10. `HOS-FND-10` — Run measured actions without fooling yourself.
+11. `HOS-FND-11` — Maintain a useful longitudinal view.
+12. `HOS-FND-12` — Build a qualitative prevention-priority review.
 
-## 1. Define health in the person's own terms
+## HOS-FND-01 — Define health in the person's own terms
 
 Health data becomes useful when it serves a decision or a life the person values. Begin with three horizons:
 
@@ -30,7 +31,7 @@ Useful questions include: What do you want to remain able to do? What outcome wo
 
 **Checkpoint:** Name one outcome that matters now and one capability you want to preserve later. What evidence would help with each?
 
-## 2. Separate evidence, guidance, interpretation, and action
+## HOS-FND-02 — Separate evidence, guidance, interpretation, and action
 
 A personal record contains different kinds of truth:
 
@@ -45,7 +46,7 @@ Good HealthOS answers show the transitions. That makes them auditable and easier
 
 **Checkpoint:** Classify each statement: “LDL-C was reported as X,” “this pattern may increase risk,” and “I will discuss medication at my appointment.”
 
-## 3. Understand a measurement before comparing it
+## HOS-FND-03 — Understand a measurement before comparing it
 
 Every measurement has a definition, method, unit, time, and context. Some are directly measured; others are calculated or estimated. Some fluctuate minute to minute; others summarize weeks or months. A device metric may be useful for self-comparison without being interchangeable with a clinical test.
 
@@ -60,7 +61,7 @@ These numbers can differ without contradiction. Always attach the unit and sourc
 
 **Checkpoint:** Why can two correct sources give different “normal” or target numbers for the same marker?
 
-## 4. Build a cardiometabolic risk picture
+## HOS-FND-04 — Build a cardiometabolic risk picture
 
 Cardiometabolic health is not one score or lab. A useful picture connects blood pressure, atherogenic lipoprotein exposure, glucose regulation, kidney function, tobacco or nicotine exposure, activity, sleep, body composition, medications, family history, and prior disease. The relative importance changes by person and time horizon.
 
@@ -72,7 +73,7 @@ Risk is cumulative, but personal decisions still depend on absolute risk, prior 
 
 **Checkpoint:** If a lipid value improves after a medication change, what context and additional evidence would you want before attributing the change and deciding the next step?
 
-## 5. Reason about prevention and screening
+## HOS-FND-05 — Reason about prevention and screening
 
 Prevention includes reducing exposures, vaccination, managing established risks, recognizing symptoms promptly, and using screening when evidence supports it. Screening tests look for disease or precursors in people without relevant symptoms. Symptoms require evaluation, not a screening calendar.
 
@@ -80,11 +81,13 @@ A screening recommendation is never just a test name. It specifies a target popu
 
 Screening can help, but it can also create false positives, false negatives, overdiagnosis, invasive follow-up, anxiety, and treatment burden. Its value depends on whether earlier detection improves outcomes in that population and whether high-quality follow-up is available.
 
-Maintain a screening view with separate fields for eligibility, last completed test, result, recommended next review, source guideline, and unresolved risk modifiers. Do not mark “not documented” as “never done.”
+The chance that a result is a true signal depends partly on how likely the condition was before testing and on the test's performance in that setting. A test that performs well can still produce many false positives when used in a very-low-risk population. This is why a result's positive or negative predictive value cannot be carried unchanged from one population to another.
+
+Maintain a screening view with separate fields for eligibility, last completed test, result, recommended next review, source guideline, and unresolved risk modifiers. Do not mark “not documented” as “never done.” A screening pathway is not closed merely because a test was ordered or performed: record whether the result was received, communicated, and followed through.
 
 **Checkpoint:** What is the first distinction to make when someone with a new symptom asks whether they are due for screening?
 
-## 6. Include brain, sleep, and emotional health
+## HOS-FND-06 — Include brain, sleep, and emotional health
 
 Cognition, mood, sleep, sensory function, and social context belong in the same longitudinal system as labs and medications. They are experienced outcomes as well as influences on other behaviors and risks.
 
@@ -94,7 +97,7 @@ For cognition or mood, establish baseline function and change over time. Acute c
 
 **Checkpoint:** Why is “sleep score 82” weaker evidence than a timeline combining device data, sleep opportunity, symptoms, and daytime function?
 
-## 7. Treat physical capacity as several trainable qualities
+## HOS-FND-07 — Treat physical capacity as several trainable qualities
 
 Physical capacity has multiple components:
 
@@ -112,7 +115,7 @@ Choose measurements that match the person's future tasks and current safety. Sta
 
 **Checkpoint:** Give one measure of exposure, one of capacity, and one of function. Why should they not be merged into one score?
 
-## 8. Evaluate nutrition by pattern, adequacy, response, and sustainability
+## HOS-FND-08 — Evaluate nutrition by pattern, adequacy, response, and sustainability
 
 Nutrition is more than a named diet. A useful review asks:
 
@@ -127,7 +130,7 @@ Prefer an explicit goal over ideology: improving glycaemic control, supporting t
 
 **Checkpoint:** What evidence would distinguish “this diet is healthy in general” from “this pattern is working safely for this person and goal”?
 
-## 9. Reconcile medications and supplements as interventions
+## HOS-FND-09 — Reconcile medications and supplements as interventions
 
 A medication list is only useful when it reflects reality. For each product, capture the exact name, formulation, dose, route, schedule, indication, prescriber or decision owner, start and stop dates, adherence context, effects, adverse effects, interactions, and monitoring plan when known.
 
@@ -137,7 +140,7 @@ Supplements can have physiologic effects, interactions, contaminants, variable f
 
 **Checkpoint:** Why is a product name alone insufficient for medication reconciliation?
 
-## 10. Run measured actions without fooling yourself
+## HOS-FND-10 — Run measured actions without fooling yourself
 
 An action becomes learnable when its goal, baseline, intervention, measure, review point, and stop conditions are explicit. Use the lowest-burden design that can answer the question safely.
 
@@ -147,7 +150,7 @@ Predefine what would count as success, no meaningful change, unacceptable burden
 
 **Checkpoint:** Before starting a behavior experiment, which decision rule would prevent you from declaring success merely because you hoped it would work?
 
-## 11. Maintain a useful longitudinal view
+## HOS-FND-11 — Maintain a useful longitudinal view
 
 A good current view is concise because the underlying history is preserved elsewhere. It should show:
 
@@ -163,3 +166,15 @@ A good current view is concise because the underlying history is preserved elsew
 Rebuild this view when evidence changes. Do not copy old uncertainty forward as fact. A sparse honest view is safer than a complete-looking one filled with assumptions.
 
 **Checkpoint:** Which parts of a HealthOS should be frozen, appended, and freely rebuilt—and why?
+
+## HOS-FND-12 — Build a qualitative prevention-priority review
+
+A broad preventive review is a dated map of what deserves attention, not a diagnosis, prediction, or single longevity score. Start with immediate safety, then consider major disease pathways, physical and cognitive reserve, emotional and social health, avoidable exposures, and whether ordinary care tasks reliably reach completion.
+
+For each domain, separate risk factors, protective factors, evidence gaps, and next decision. Use explicit coverage states such as `known`, `partial`, `pending`, `unknown`, and `not applicable`. Unknown is not low risk; it is a reason to decide whether better evidence would change anything.
+
+Rank work by consequence, plausible personal relevance, evidence that an action helps, urgency, reversibility, burden, and confidence in the underlying data. Keep these ingredients visible instead of compressing them into a fake probability. A prevention priority may justify learning, collecting evidence, or discussing care; it cannot activate a treatment by itself.
+
+Use the full workflow in [`../PREVENTION_REVIEW.md`](../PREVENTION_REVIEW.md) when a learner asks for an LRA-style or comprehensive preventive review.
+
+**Checkpoint:** Why might a high-consequence unknown rank above a well-measured but modest risk—and what would you do next without pretending to know the person's probability?

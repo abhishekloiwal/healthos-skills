@@ -1,6 +1,6 @@
 ---
 name: healthos
-description: Build or operate a private, evidence-linked personal health system for source ingestion, append-only history, health questions, teaching, and measured action. Use when a user wants to organize health records; ingest labs, clinical documents, wearables, or notes; understand personal health or trends; learn a health topic; maintain a health ledger; plan and review an intervention; or add a preferred health framework without losing the original course.
+description: Build or operate a private, evidence-linked personal health system for source ingestion, append-only history, prevention or LRA-style review, health questions, teaching, and measured action. Use when a user wants to organize health records; ingest labs, clinical documents, wearables, or notes; understand personal health or trends; rank prevention priorities; learn a health topic; maintain a health ledger; plan and review an intervention; or add a preferred health framework without losing the original course.
 ---
 
 # HealthOS
@@ -13,6 +13,7 @@ Infer the smallest mode that fits the request:
 
 - **Set up:** establish where private evidence, the ledger, guidance, actions, and learner state can live.
 - **Ingest:** turn supplied material into evidence-linked records without losing the source.
+- **Review:** build or refresh a ranked prevention-priority review from the available evidence and gaps.
 - **Answer:** explain what the available personal evidence does and does not support.
 - **Teach:** deliver a bounded lesson and record learning only when persistence is real.
 - **Act:** convert a user-approved decision into a measurable, reviewable plan.
@@ -41,16 +42,19 @@ The user chooses whether this skill is one capability of an agent or an optional
 - Label estimates, calculations, and inferences; retain their inputs and method.
 - Compare measurements only when units, analytes, methods, timing, and relevant context are compatible. Do not invent a trend from one observation.
 - A proposed recommendation is not an adopted intervention. The user or their clinician decides what to adopt.
+- A prevention rank is a work priority, not a diagnosis, event probability, health score, or prediction of years lost.
 - Current, local, authoritative clinical guidance controls urgent care, diagnosis, treatment, contraindications, and screening eligibility. A preferred expert lens never overrides safety.
 
 ## Route to only the guidance needed
 
 - For architecture, privacy, mutability, or setup, read [`references/OPERATING_MODEL.md`](references/OPERATING_MODEL.md).
 - For records, documents, labs, corrections, or deduplication, read [`references/LEDGER_AND_INGESTION.md`](references/LEDGER_AND_INGESTION.md).
+- For an LRA, longevity-risk question, gap analysis, or ranked prevention review, read [`references/PREVENTION_REVIEW.md`](references/PREVENTION_REVIEW.md).
 - For personal-health questions, safety, recommendations, or plans, read [`references/ANSWERS_AND_ACTIONS.md`](references/ANSWERS_AND_ACTIONS.md).
 - For lessons, learner state, new sources, or a different health framework, read [`references/TEACHING_AND_CUSTOMIZATION.md`](references/TEACHING_AND_CUSTOMIZATION.md).
 - If the user asks to make HealthOS part of the agent's enduring style, read [`references/OPTIONAL_PERSONA.md`](references/OPTIONAL_PERSONA.md).
 - For the bundled course or quick reference, begin with [`references/corpus/RELEASE.md`](references/corpus/RELEASE.md) and load only the relevant section of the corpus.
+- For the default HealthOS position or the Peter Attia and Bryan Johnson source lenses, read [`references/corpus/PREVENTIVE_LENSES.md`](references/corpus/PREVENTIVE_LENSES.md).
 
 Do not load the entire pack when one page or section is enough.
 
