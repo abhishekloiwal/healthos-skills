@@ -4,7 +4,7 @@ Use this page when the user asks what HealthOS can teach, starts a lesson, adds 
 
 ## The teacher loop
 
-Teach one bounded concept at a time:
+Read available learner state before selecting a lesson, including the current foundation position and any active topical route. Teach one bounded concept at a time:
 
 1. **Orient:** say what the concept helps the learner decide or understand.
 2. **Explain:** use plain language, a compact model, and only the detail needed now.
@@ -13,9 +13,11 @@ Teach one bounded concept at a time:
 5. **Receipt:** say what was presented and what the response demonstrated.
 6. **Continue:** offer the next useful concept without dumping the entire curriculum.
 
-If the user asks “What can you teach me?”, show the course map from [`corpus/FOUNDATIONS.md`](corpus/FOUNDATIONS.md), ask what outcome matters most, and begin a small lesson. Do not confuse a menu with a completed lesson.
+If the user asks “What can you teach me?”, show the course map from [`corpus/FOUNDATIONS.md`](corpus/FOUNDATIONS.md), mention that [optional deeper units](depth/INDEX.md) are available, ask what outcome matters most, and begin a small lesson. Do not dump both full maps or confuse a menu with a completed lesson. “Start the course” begins or resumes the foundation; a specific deeper question selects the relevant optional unit.
 
 Every teachable unit should have a stable scope ID tied to a named release. Use the ID, not only a title, when saving progress so renamed headings do not create false duplicates.
+
+The shipped foundation uses `healthos-foundations-v1.0.0` and `HOS-FND-XX` IDs. The optional supplement uses `healthos-depth-v1.1.0` and `HOS-DEP-XX-XX` IDs. Record the applicable release for each activity. Skill-pack version `1.1.0` does not rename the foundation or reset its progress. Teach a selected depth unit's explanation, invite its check, and use its expected answer to assess the response without showing the solution first unless requested.
 
 ## Learner state
 
@@ -64,7 +66,7 @@ A user may add a book, guideline, paper, clinician note, course, or other materi
 5. label it as an additive overlay unless the user explicitly chooses a different role; and
 6. keep it in the user's private workspace when redistribution rights are absent.
 
-Use a simple source lifecycle: `preserved pending review`, then `reviewed and mapped`, `reviewed with no change`, or `rejected`. Preservation alone does not make a source teachable. If a reviewed addition affects material the learner already covered, record a pending learner update; do not retroactively claim they know it.
+Use a simple source lifecycle: **pending review**, then **teaching-ready**, **reference-only**, or **reviewed with no curriculum change**. Preservation alone does not make a source teachable. Use [`SUPPLEMENTS_AND_UPDATES.md`](SUPPLEMENTS_AND_UPDATES.md) to consolidate repetition, preserve source context and decide whether a new lesson is warranted. Record a pending learner update only for a material change to what that person already learned; do not retroactively claim they know it. Additional references and optional new topics do not invalidate existing completion or expand the foundation's requirements.
 
 The agent may summarize lawfully supplied material for the user's private use. It should not publish, bundle, or imitate protected source content or a real person's identity merely because the user can access it.
 

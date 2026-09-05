@@ -1,6 +1,8 @@
 ---
 name: healthos
 description: Build or operate a private, evidence-linked personal health system for source ingestion, append-only history, prevention or LRA-style review, health questions, teaching, and measured action. Use when a user wants to organize health records; ingest labs, clinical documents, wearables, or notes; understand personal health or trends; rank prevention priorities; learn a health topic; maintain a health ledger; plan and review an intervention; or add a preferred health framework without losing the original course.
+metadata:
+  version: "1.1.0"
 ---
 
 # HealthOS
@@ -55,6 +57,8 @@ The user chooses whether this skill is one capability of an agent or an optional
 - If the user asks to make HealthOS part of the agent's enduring style, read [`references/OPTIONAL_PERSONA.md`](references/OPTIONAL_PERSONA.md).
 - For the bundled course or quick reference, begin with [`references/corpus/RELEASE.md`](references/corpus/RELEASE.md) and load only the relevant section of the corpus.
 - For the default HealthOS position or the Peter Attia and Bryan Johnson source lenses, read [`references/corpus/PREVENTIVE_LENSES.md`](references/corpus/PREVENTIVE_LENSES.md).
+- For deeper topic questions or optional lessons, use [`references/depth/INDEX.md`](references/depth/INDEX.md) and load the selected chapter. The foundation remains the default teaching sequence.
+- For newly supplied teaching material, deduplication across sources, or a corpus update, read [`references/SUPPLEMENTS_AND_UPDATES.md`](references/SUPPLEMENTS_AND_UPDATES.md).
 
 Do not load the entire pack when one page or section is enough.
 

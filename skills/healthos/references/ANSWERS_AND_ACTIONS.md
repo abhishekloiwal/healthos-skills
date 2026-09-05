@@ -29,6 +29,8 @@ Use:
 
 A preferred lens can change emphasis and optimization goals. It cannot erase contraindications, turn speculation into evidence, or replace licensed care.
 
+For additional explanation, use the relevant [optional depth unit](depth/INDEX.md) alongside the foundation. Answer the person's question directly; a question does not automatically start a lesson or require a checkpoint. If the question exceeds bundled coverage, say so briefly and answer from current authoritative sources when available, clearly separating that guidance from the curriculum. Do not claim a live lookup or current status without checking it. The supplement is educational context within the same guidance order, not an override of clinical evidence or safety.
+
 ### 5. Reconcile rather than blur
 
 Explain material disagreement between sources, differences between population reference intervals and clinical decision thresholds, and whether a target is diagnostic, treatment-linked, risk-based, or merely preferred by one source.
